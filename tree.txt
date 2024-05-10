@@ -1,0 +1,44 @@
+next-store-app
+├── node_modules
+├── public
+├── src
+│   ├── app
+│   │   ├── (auth)
+│   │   |   ├── _authForms
+│   │   |   ├── fogotpass
+│   │   |   ├── login
+│   │   |   ├── register
+│   │   |   ├── twostep
+│   │   |   ├── types
+│   │   |   ├── layout.tsx
+│   │   ├── (back)
+│   │   |   ├── backend
+│   │   |   |   ├── dashboard
+│   │   |   |   ├── products
+│   │   |   |   |   ├── Products.tsx
+│   │   |   |   |   ├── page.tsx
+│   │   |   ├── layout.tsx
+│   │   ├── (front)
+│   │   |   ├── about
+│   │   |   ├── blog
+│   │   |   ├── contact
+│   │   |   ├── home
+│   │   |   ├── layout.tsx
+│   │   |   ├── page.tsx
+│   │   ├── components
+│   │   ├── services
+│   │   ├── theme
+│   │   ├── utils
+│   │   ├── favicon.ico
+│   │   ├── global.css
+│   │   ├── layout.tsx
+│   │   ├── not-found.tsx
+│   ├── middleware.ts
+├── .env.development
+├── .env.production
+├── .eslintrc.json
+├── .gitignore
+├── .next.config.mjs
+├── package.json
+├── README.md
+├── tsconfig.json
